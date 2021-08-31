@@ -103,6 +103,8 @@ public class Candidate {
 	
 	public static void main(String[] args) {
 		Candidate candidate1 = new Candidate("Indira Patel", "Demopublican", 35400);
+		Candidate candidate2 = new Candidate("Roland Locke", "Democrat", 68421);
+		Candidate candidate3 = new Candidate("Bob Barkley", "Republican", 2000);
 		System.out.println(candidate1.getName() + ": " + candidate1.getVotes());
 	}
 
